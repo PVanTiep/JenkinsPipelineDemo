@@ -24,5 +24,11 @@ pipeline {
                 echo 'release'
             }
         }
+        stage('exit'){
+            
+            steps{
+                echo 'exit'
+            }
+        }
     }
 }
